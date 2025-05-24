@@ -87,3 +87,8 @@ vim a file with shortcut_name.fish
 >   `end`
 
 > `funcsave funcName`
+
+
+package is already installed or not empty
+
+> `sudo pacman -S 'package_name' --overwrite="*"`
