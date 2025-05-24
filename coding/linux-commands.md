@@ -40,7 +40,7 @@ Copy and remove symlink files/folder
 
 Symlink folder to git
 
-> `mkdir -p ~/path_to_git/dotfiles/name_of_pkg/.config/name_of_pkg` 
+> `mkdir -p ~/path_to_git/dotfiles/name_of_pkg/.config/name_of_pkg`  
 > `cp -r ~/path_to_pkg/ ~/path_to_git/dotfiles/pkg_name/.config`    
 > `rm -r ~/path_to_pkg/*`   
 > `stow -t ~ pkg_name`  
@@ -82,8 +82,8 @@ pacman is currently in use
 create new fish bind    
 vim a file with shortcut_name.fish
 
-> `function funcName    
->       cmd to execute  
->     end`  
+> `function funcName      
+>       cmd to execute   
+>     end` 
 
 > `funcsave funcName`
