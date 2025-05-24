@@ -73,3 +73,17 @@ disconnect from device
 > `nmcli device disconnect wlan0`
 
 
+## Hyprlinux
+
+pacman is currently in use
+
+> `sudo rm /var/lib/pacman/db.lck`
+
+create new fish bind    
+vim a file with shortcut_name.fish
+
+> `function funcName
+>       cmd to execute
+>     end`
+
+> `funcsave funcName`
