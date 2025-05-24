@@ -82,8 +82,8 @@ pacman is currently in use
 create new fish bind    
 vim a file with shortcut_name.fish
 
-> `function funcName        
->  cmd to execute     
->  end` 
+> `function funcName`           
+>   `cmd to execute`         
+>   `end`
 
 > `funcsave funcName`
