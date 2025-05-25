@@ -1,7 +1,5 @@
 # Set Up / Repair ArchLinux
 
----
-
 ## Steps to set up
 
 list drives
