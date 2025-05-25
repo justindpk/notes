@@ -5,7 +5,7 @@
 ## Steps to set up
 
 <aside>
-💡 list drives
+list drives
 
 ```jsx
 $ fdisk -l
@@ -14,7 +14,6 @@ $ fdisk -l
 </aside>
 
 <aside>
-💡
 
 create 3 partitions
 
@@ -27,7 +26,7 @@ $ fdisk /dev/sda3
 </aside>
 
 <aside>
-💡 format partitions
+format partitions
 
 ```jsx
 $ mkfs.fat -F 32 /dev/sda1
@@ -38,7 +37,7 @@ $ mkfs.ext4 /dev/sda3
 </aside>
 
 <aside>
-💡 mount partitions
+mount partitions
 
 ```jsx
 $ mount /dev/sda3 /mnt
@@ -49,7 +48,7 @@ $ swapon /dev/sda2
 </aside>
 
 <aside>
-💡 install wifi
+install wifi
 
 ```jsx
 $ ip link
@@ -63,7 +62,7 @@ $ station device_name connect SSID
 </aside>
 
 <aside>
-💡 install linux
+install linux
 
 ```jsx
 $ pacstrap -K /mnt base linux linux-firmware
@@ -72,7 +71,7 @@ $ pacstrap -K /mnt base linux linux-firmware
 </aside>
 
 <aside>
-💡 set partition to mount on boot
+set partition to mount on boot
 
 ```bash
 $ genfstab -U /mnt >> /mnt/etc/fstab
@@ -81,7 +80,7 @@ $ genfstab -U /mnt >> /mnt/etc/fstab
 </aside>
 
 <aside>
-💡 install vim
+install vim
 
 ```bash
 $ pacman -S vim
@@ -91,7 +90,7 @@ $ export EDITOR = vim
 </aside>
 
 <aside>
-💡 localization
+localization
 
 ```bash
 $ vim /etc/locale.gen
@@ -104,7 +103,7 @@ $ vim /etc/locale.conf
 </aside>
 
 <aside>
-💡 network config
+network config
 
 ```bash
 $ pacman -S networkmanager
@@ -117,7 +116,7 @@ $ systemctl enable NetworkManager
 </aside>
 
 <aside>
-💡 change password & create user
+change password & create user
 
 ```bash
 $ passwd
@@ -132,7 +131,7 @@ $ passwd {username}
 </aside>
 
 <aside>
-💡 install bootloader
+install bootloader
 
 ```bash
 $ pacman -S grub efibootmgr
@@ -145,7 +144,7 @@ $ reboot
 </aside>
 
 <aside>
-💡 wifi
+wifi
 
 ```bash
 $ nmcli device wifi connect {SSID} password {passowrd}
@@ -154,7 +153,6 @@ $ nmcli device wifi connect {SSID} password {passowrd}
 </aside>
 
 <aside>
-💡
 
 install paru
 
@@ -175,7 +173,7 @@ $ paru
 </aside>
 
 <aside>
-💡 install hyprland and kitty
+install hyprland and kitty
 
 ```bash
 $ paru -S hyprland-git kitty gtk3
@@ -184,7 +182,7 @@ $ paru -S hyprland-git kitty gtk3
 </aside>
 
 <aside>
-💡 edit hyprland config
+edit hyprland config
 
 ```bash
 $ sudo vim ~/.config/hyprland/hyprland.conf
@@ -197,12 +195,12 @@ $ sudo vim ~/.config/hyprland/hyprland.conf
 ## Repair Linux
 
 <aside>
-💡 boot linux from repair usb [ensure usb has archlinux]
+boot linux from repair usb [ensure usb has archlinux]
 
 </aside>
 
 <aside>
-💡 mount partitions
+mount partitions
 
 ```bash
 $ mount /dev/sda3 /mnt
@@ -213,7 +211,7 @@ $ swapon /dev/sda2
 </aside>
 
 <aside>
-💡 reinstall linux
+reinstall linux
 
 ```bash
 $ pacstrap /mnt base linux linux-firmware [corrupted package] [--overwrite \*]
@@ -222,7 +220,7 @@ $ pacstrap /mnt base linux linux-firmware [corrupted package] [--overwrite \*]
 </aside>
 
 <aside>
-💡 generate fstab
+generate fstab
 
 ```bash
 $ genfstab -U /mnt >> /mnt/etc/fstab
@@ -231,7 +229,7 @@ $ genfstab -U /mnt >> /mnt/etc/fstab
 </aside>
 
 <aside>
-💡 chroot
+chroot
 
 ```bash
 $ arch-chroot /mnt
@@ -240,7 +238,7 @@ $ arch-chroot /mnt
 </aside>
 
 <aside>
-💡 repair GRUB
+repair GRUB
 
 ```bash
 $ grub-install /dev/sda
@@ -250,7 +248,7 @@ $ grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id={name i
 </aside>
 
 <aside>
-💡 exit / unmount
+exit / unmount
 
 ```bash
 $ exit
