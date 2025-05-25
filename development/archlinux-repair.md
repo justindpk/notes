@@ -142,7 +142,7 @@ $ sudo vim ~/.config/hyprland/hyprland.conf
 
 ## Repair Linux
 
-boot linux from repair usb [ensure usb has archlinux]
+boot linux from repair usb (ensure usb has archlinux)
 
 mount partitions
 
