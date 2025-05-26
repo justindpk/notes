@@ -1,6 +1,6 @@
 # Kumar
 
-### Instructions
+### Notes
 
 - Crumble butter in flour first
 - Mix all other ingredients afterwards

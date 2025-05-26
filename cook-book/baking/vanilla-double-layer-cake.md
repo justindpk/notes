@@ -15,17 +15,28 @@
 - 2 cups of sugar
 - 1 teaspoon vanilla extract
 
+### Halved
+
+- 3/4 stick (6 tbsp) butter
+- 1/2 cup of milk
+- 1 cup of sifted flour
+- 1 3/8 teaspoons baking powder
+- 1/4 teaspon salt
+- 2 eggs
+- 1 cup of sugar
+- 1/2 teaspoon vanilla extract
+
 ## Instructions
 
-- Heat the oven to 325°F
-- Grease and flour two 9-inch round cake pans   
+> Heat the oven to 325°F
+> Grease and flour two 9-inch round cake pans   
 
-- Combine the butter and milk in a small saucepan and cook over low heat until melted
-- Combine the flour, baking powder, and salt in a medium bowl   
+> Combine the butter and milk in a small saucepan and cook over low heat until melted
+> Combine the flour, baking powder, and salt in a medium bowl   
 
-- In a mixer combine eggs and sugar, beat at high speed snd scrape until smooth
-- Stir flour into egg mixture until flour disappears
-- Add cooled milk and vanilla essence and mix together  
+> In a mixer combine eggs and sugar, beat at high speed and scrape until smooth
+> Stir flour into egg mixture until flour disappears
+> Add cooled milk and vanilla essence and mix together  
 
-- Divide batter between pans
-- Bake for 25 to 30 minutes, watch for sides to pull away 
+> Divide batter between pans
+> Bake for 25 to 30 minutes, watch for sides to pull away 
