@@ -23,9 +23,12 @@
 
 ## Instructions 
 
-> melt butter first butter then add all other ingredients   
+> melt butter first butter then add all other ingredients  
+>    
 > stir milk mix until blended
 
 > add potatoes or macroni to baking pan and milk mixture on top 
+>   
 > sprinkle cheeese and breadcrumbs
+>   
 > bake at 375°F

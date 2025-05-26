@@ -23,6 +23,9 @@
 ## Instructions
 
 > Blend up can of tomatoes  
-> Sautee garlic in pan with olive oil and some red pepper flakes    
+>     
+> Sautee garlic in pan with olive oil and some red pepper flakes  
+>     
 > Add blended tomatoes to pan and stir with oregano and more pepper flakes  
+>   
 > Blend again and freeze in cube tray
