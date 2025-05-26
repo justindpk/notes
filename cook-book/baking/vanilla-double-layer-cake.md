@@ -18,14 +18,14 @@
 ## Instructions
 
 - Heat the oven to 325°F
-- Grease and flour two 9-inch round cake pans
+- Grease and flour two 9-inch round cake pans   
 
 - Combine the butter and milk in a small saucepan and cook over low heat until melted
-- Combine the flour, baking powder, and salt in a medium bowl
+- Combine the flour, baking powder, and salt in a medium bowl   
 
 - In a mixer combine eggs and sugar, beat at high speed snd scrape until smooth
 - Stir flour into egg mixture until flour disappears
-- Add cooled milk and vanilla essence and mix together
+- Add cooled milk and vanilla essence and mix together  
 
 - Divide batter between pans
 - Bake for 25 to 30 minutes, watch for sides to pull away 
