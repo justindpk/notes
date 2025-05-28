@@ -73,6 +73,20 @@ disconnect from device
 > `nmcli device disconnect wlan0`
 
 
+## Time Date
+
+> timedatectl status
+
+check time
+
+> sudo timedatectl set-timezone America/Los_Angeles
+
+set time to timezone
+
+> sudo timedatectl set-ntp true
+
+fix for incorrect time displaying
+
 ## Hyprlinux
 
 pacman is currently in use
@@ -92,3 +106,4 @@ vim a file with shortcut_name.fish
 package is already installed or not empty
 
 > `sudo pacman -S 'package_name' --overwrite="*"`
+
