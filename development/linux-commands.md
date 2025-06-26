@@ -30,6 +30,19 @@ Kill a screen
 
 > `screen -X -S [screen to kill] kill`
 
+## Encryption
+
+encrypt file
+
+>> gpg --symmetric \
+    --cipher-algo AES256 \
+    --output secret.json.gpg \
+    secret.json
+
+unencrypt file
+
+>> gpg --decrypt secret.json.gpg > secret.json
+
 ## Symlinking
 
 Copy and remove symlink files/folder
