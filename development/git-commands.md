@@ -20,3 +20,7 @@ Rebase a branch to main
 > git fetch origin
 > git branch -u origin/main main
 > git remote set-head origin -a
+
+Switch remote to SSH from HTTPS to allow git push
+
+>> git remote set-url git@github.com:username/public-repo.git
