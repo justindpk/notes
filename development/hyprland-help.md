@@ -14,3 +14,9 @@ Setting up fingerprint reader (allow user to be registered, default is root)
 >         return polkit.Result.YES;
 >     }
 > });
+
+Upgrade / Update finger reader and other framework components
+
+> fwupdmgr get-devices GUID
+> fwupdmgr get-updates 1e8c8470-a49c-571a-82fd-19c9fa32b8c3
+> fwupdmgr update GUID
