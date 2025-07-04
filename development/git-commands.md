@@ -23,4 +23,4 @@ Rebase a branch to main
 
 Switch remote to SSH from HTTPS to allow git push
 
->> git remote set-url git@github.com:username/public-repo.git
+> git remote set-url git@github.com:username/public-repo.git
