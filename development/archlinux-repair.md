@@ -185,4 +185,10 @@ $ unmount -R /mnt
 $ reboot
 ```
 
-</aside>
+## Quick fixes
+
+mount system to fix
+```bash
+$ mount /dev/nvme0n1p2 /mnt
+$ mount /dev/nvme0n1p1 /mnt/boot/efi
+```
